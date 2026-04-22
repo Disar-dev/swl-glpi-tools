@@ -1,0 +1,60 @@
+# Dependencias
+
+/vendor/
+/node_modules/
+
+# Variables sensibles
+
+.env
+.env.local
+.env.production
+
+# Logs
+
+*.log
+logs/
+
+# Cache y temporales
+
+/cache/
+/tmp/
+/temp/
+
+# Archivos de sistema
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuración de editores
+
+.vscode/
+.idea/
+
+# Archivos de backup
+
+*.bak
+*.swp
+*.tmp
+
+# Archivos compilados / minificados si no deben versionarse
+
+*.map
+
+# PHPUnit / testing
+
+coverage/
+.phpunit.result.cache
+
+# Composer local
+
+composer.lock
+
+# Archivos específicos del servidor
+
+*.pid
+*.seed
+
+# Mantener estructura vacía
+
+!.gitkeep

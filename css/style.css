@@ -1,0 +1,14 @@
+body.welcome-anonymous{
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+  background-image: url(https://swisslub.com/wp-content/uploads/2026/04/login-fondo-scaled.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+
+.content-login-title {
+  text-align: center;
+}
